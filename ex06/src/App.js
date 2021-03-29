@@ -2,7 +2,10 @@ import "./App.css";
 import Plant from "./Plant";
 
 function App() {
-  return <Plant />
+  return (
+    <div className="App">
+      <Plant />
+    </div>
+  );
 }
-
 export default App;
